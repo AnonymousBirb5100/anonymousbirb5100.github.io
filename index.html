@@ -255,11 +255,11 @@
                 transition: opacity 0.3s ease;
                 object-fit: cover;
             }
-            .homeButton img:hover, .newButton img:hover {
+            .homeButton img:hover, .newHomeButton img:hover {
                 transition:0.3s ease;
                 opacity:1;
             }
-            .homeButton:hover img, .newButton:hover img {
+            .homeButton:hover img, .newHomeButton:hover img {
                 opacity: 1;
             }
             .homeButtonTitle {
@@ -581,7 +581,7 @@
     </head>
     <body class="all">
         <header id="header" class="hidden, header">
-            <img src="https://raw.githubusercontent.com/AnonymousBirb5100/anonymousbirb5100.github.io/refs/heads/main/images/canvas-bird-favicon-new.png" alt="Logo">
+            <img src="https://raw.githubusercontent.com/AnonymousBirb5100/anonymousbirb5100.github.io/refs/heads/main/images/canvas-bird-favicon-new.png" alt="Logo" id="birdLogo">
             <h3>The <span style="color:blue;">Bird</span>Hub</h3>
             <!--Button here to hide header until refresh-->
             <!--Search bar-->
@@ -633,6 +633,12 @@
                 <p style="font-size:20px;">Settings have been added! For now, it is just to change from dark to light mode. It is acessible on the header.</p>
             </div> NOTIFICATIONS-->
         <!-- Recently Played Section -->
+                     <div style="font-size: 23px; width: 90vw; background-color: rgb(255, 0, 0); color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; margin: auto; border-radius: 25px;
+        padding: 5px; margin-bottom: 20px; margin-top: 30px;">
+            <p>The BirdHub is almost to its final update of 1.9. The second version of BirdHub, renamed PHOENIXgaming, is under development.
+                More information will be released by update 1.9. Thanks for reading this notice!
+            </p>
+        </div>
         <div class="recently-played">
             <p class="recently-played-title">Pick Up Where You</br>
                 Left Off</p>
@@ -660,44 +666,44 @@
         <p class="subtopic" style="color:aqua; text-align: center;">New games that have been added onto BirdHub.</p>
         <div class="button-container">
             <button id="grindcraft" class="newHomeButton"
-            onclick="updateRecentlyPlayed('BitLife', 'https://raw.githubusercontent.com/AnonymousBirb5100/bitlife/refs/heads/main/logo.png', 'https://anonymousbirb5100.github.io/bitlife'); window.location.href = 'https://anonymousbirb5100.github.io/bitlife';">
-                <img src="https://raw.githubusercontent.com/AnonymousBirb5100/bitlife/refs/heads/main/logo.png"/>
-                <p class="homeButtonTitle">BitLife</p>
+            onclick="updateRecentlyPlayed('The Final Earth 2', 'https://anonymousbirb5100.github.io/the-final-earth-2/the-final-earth-2-logo.jpeg', 'https://anonymousbirb5100.github.io/the-final-earth-2'); window.location.href = 'https://anonymousbirb5100.github.io/the-final-earth-2';">
+                <img src="https://anonymousbirb5100.github.io/the-final-earth-2/the-final-earth-2-logo.jpeg">
+                <p class="homeButtonTitle">The Final Earth 2</p>
             </button>
-            <button class="newHomeButton"
-            onclick="updateRecentlyPlayed('A Dance of Fire and Ice', 'https://raw.githubusercontent.com/AnonymousBirb5100/a-dance-of-fire-and-ice/refs/heads/main/adofai-logo.jpeg', 'https://anonymousbirb5100.github.io/a-dance-of-fire-and-ice'); window.location.href = 'https://anonymousbirb5100.github.io/a-dance-of-fire-and-ice';">
-                <img src="https://raw.githubusercontent.com/AnonymousBirb5100/a-dance-of-fire-and-ice/refs/heads/main/adofai-logo.jpeg"/>
-                <p class="homeButtonTitle">A Dance of Fire and Ice</p>
+            <button id="grindcraft" class="newHomeButton"
+            onclick="updateRecentlyPlayed('Temple of Boom', 'https://anonymousbirb5100.github.io/temple-of-boom/temple-of-boom-logo.jpeg', 'https://anonymousbirb5100.github.io/temple-of-boom'); window.location.href = 'https://anonymousbirb5100.github.io/temple-of-boom';">
+                <img src="https://anonymousbirb5100.github.io/temple-of-boom/temple-of-boom-logo.jpeg">
+                <p class="homeButtonTitle">Temple of Boom</p>
             </button>
-            <button class="newHomeButton"
-            onclick="updateRecentlyPlayed('Super Smash Flash', 'https://raw.githubusercontent.com/AnonymousBirb5100/super-smash-flash/refs/heads/main/super-smash-flash-logo.png', 'https://anonymousbirb5100.github.io/super-smash-flash'); window.location.href = 'https://anonymousbirb5100.github.io/super-smash-flash';">
-                <img src="https://raw.githubusercontent.com/AnonymousBirb5100/super-smash-flash/refs/heads/main/super-smash-flash-logo.png"/>
-                <p class="homeButtonTitle">Super Smash Flash</p>
+            <button id="grindcraft" class="newHomeButton"
+            onclick="updateRecentlyPlayed('The Worlds Hardest Game', 'https://anonymousbirb5100.github.io/the-worlds-hardest-game/the-worlds-hardest-game-logo.png', 'https://anonymousbirb5100.github.io/the-worlds-hardest-game'); window.location.href = 'https://anonymousbirb5100.github.io/the-worlds-hardest-game';">
+                <img src="https://anonymousbirb5100.github.io/the-worlds-hardest-game/the-worlds-hardest-game-logo.png">
+                <p class="homeButtonTitle">The World's Hardest Game</p>
             </button>
-            <button class="newHomeButton"
-            onclick="updateRecentlyPlayed('Curveball', 'https://raw.githubusercontent.com/AnonymousBirb5100/curveball/refs/heads/main/curveball-logo.png', 'https://anonymousbirb5100.github.io/curveball'); window.location.href = 'https://anonymousbirb5100.github.io/curveball';">
-                <img src="https://raw.githubusercontent.com/AnonymousBirb5100/curveball/refs/heads/main/curveball-logo.png"/>
-                <p class="homeButtonTitle">Curveball</p>
+            <button id="grindcraft" class="newHomeButton"
+            onclick="updateRecentlyPlayed('Vex 5', 'https://anonymousbirb5100.github.io/vex5/vex5-logo.jpeg', 'https://anonymousbirb5100.github.io/vex5'); window.location.href = 'https://anonymousbirb5100.github.io/vex5';">
+                <img src="https://anonymousbirb5100.github.io/vex5/vex5-logo.jpeg">
+                <p class="homeButtonTitle">Vex 5</p>
             </button>
-            <button class="newHomeButton"
-            onclick="updateRecentlyPlayed('Bloons TD 3', 'https://raw.githubusercontent.com/AnonymousBirb5100/bloons-td-3/refs/heads/main/bloons-td-3-logo.png', 'https://anonymousbirb5100.github.io/bloons-td-3'); window.location.href = 'https://anonymousbirb5100.github.io/bloons-td-3';">
-                <img src="https://raw.githubusercontent.com/AnonymousBirb5100/bloons-td-3/refs/heads/main/bloons-td-3-logo.png">
-                <p class="homeButtonTitle">Bloons TD 3</p>
+            <button id="grindcraft" class="newHomeButton"
+            onclick="updateRecentlyPlayed('Vex 7', 'https://anonymousbirb5100.github.io/vex7/vex7-logo.jpeg', 'https://anonymousbirb5100.github.io/vex7'); window.location.href = 'https://anonymousbirb5100.github.io/vex7';">
+                <img src="https://anonymousbirb5100.github.io/vex7/vex7-logo.jpeg">
+                <p class="homeButtonTitle">Vex 7</p>
             </button>
-            <button class="newHomeButton"
-            onclick="updateRecentlyPlayed('Duck Life 4', 'https://raw.githubusercontent.com/AnonymousBirb5100/duck-life-4/refs/heads/main/splash.jpg', 'https://anonymousbirb5100.github.io/duck-life-4'); window.location.href = 'https://anonymousbirb5100.github.io/duck-life-4';">
-                <img src="https://raw.githubusercontent.com/AnonymousBirb5100/duck-life-4/refs/heads/main/splash.jpg">
-                <p class="homeButtonTitle">Duck Life 4</p>
+            <button id="grindcraft" class="newHomeButton"
+            onclick="updateRecentlyPlayed('Volleyball Random', 'https://anonymousbirb5100.github.io/volleyball-random/volleyball-random-logo.jpeg', 'https://anonymousbirb5100.github.io/volleyball-random'); window.location.href = 'https://anonymousbirb5100.github.io/volleyball-random';">
+                <img src="https://anonymousbirb5100.github.io/volleyball-random/volleyball-random-logo.jpeg">
+                <p class="homeButtonTitle">Volleyball Random</p>
             </button>
-            <button class="newHomeButton"
-            onclick="updateRecentlyPlayed('Suika Watermelon Game', 'https://raw.githubusercontent.com/AnonymousBirb5100/suika-watermelon-game/refs/heads/main/suika-watermelon-game-logo.jpg', 'https://anonymousbirb5100.github.io/suika-watermelon-game'); window.location.href = 'https://anonymousbirb5100.github.io/suika-watermelon-game';">
-                <img src="https://raw.githubusercontent.com/AnonymousBirb5100/suika-watermelon-game/refs/heads/main/suika-watermelon-game-logo.jpg">
-                <p class="homeButtonTitle">Suika Watermelon Game</p>
+            <button id="grindcraft" class="newHomeButton"
+            onclick="updateRecentlyPlayed('Papas Freezeria', 'https://anonymousbirb5100.github.io/papas-freezeria/papas-freezeria-logo.jpeg', 'https://anonymousbirb5100.github.io/papas-freezeria'); window.location.href = 'https://anonymousbirb5100.github.io/papas-freezeria';">
+                <img src="https://anonymousbirb5100.github.io/papas-freezeria/papas-freezeria-logo.jpeg">
+                <p class="homeButtonTitle">Papa's Freezeria</p>
             </button>
-            <button class="newHomeButton"
-            onclick="updateRecentlyPlayed('The Final Earth', 'https://raw.githubusercontent.com/AnonymousBirb5100/the-final-earth/refs/heads/main/the-final-earth-logo.png', 'https://anonymousbirb5100.github.io/the-final-earth'); window.location.href = 'https://anonymousbirb5100.github.io/the-final-earth';">
-                <img src="https://raw.githubusercontent.com/AnonymousBirb5100/the-final-earth/refs/heads/main/the-final-earth-logo.png">
-                <p class="homeButtonTitle">The Final Earth</p>
+            <button id="grindcraft" class="newHomeButton"
+            onclick="updateRecentlyPlayed('Drift Boss', 'https://anonymousbirb5100.github.io/drift-boss/drift-boss-logo.jpeg', 'https://anonymousbirb5100.github.io/drift-boss'); window.location.href = 'https://anonymousbirb5100.github.io/drift-boss';">
+                <img src="https://anonymousbirb5100.github.io/drift-boss/drift-boss-logo.jpeg">
+                <p class="homeButtonTitle">Drift Boss</p>
             </button>
         </div>
         </div>
@@ -736,6 +742,16 @@
                 <img src="https://raw.githubusercontent.com/AnonymousBirb5100/run3/refs/heads/gh-pages/run-3-logo.jpg"/>
                 <p class="homeButtonTitle">Run 3</p>
             </button>
+            <button class="homeButton" style="border:5px solid orangered; box-shadow: 0px 0px 30px rgba(255, 69, 0, 0.8);"
+            onclick="updateRecentlyPlayed('Subway Surfers', 'https://anonymousbirb5100.github.io/subway-surfers/subway-surfers-logo.jpeg', 'https://anonymousbirb5100.github.io/subway-surfers'); window.location.href = 'https://anonymousbirb5100.github.io/subway-surfers';">
+                <img src="https://anonymousbirb5100.github.io/subway-surfers/subway-surfers-logo.jpeg"/>
+                <p class="homeButtonTitle">Subway Surfers</p>
+            </button>
+            <button class="homeButton" style="border:5px solid orangered; box-shadow: 0px 0px 30px rgba(255, 69, 0, 0.8);"
+            onclick="updateRecentlyPlayed('A Dance of Fire and Ice', 'https://anonymousbirb5100.github.io/a-dance-of-fire-and-ice/adofai-logo.jpeg', 'https://anonymousbirb5100.github.io/a-dance-of-fire-and-ice'); window.location.href = 'https://anonymousbirb5100.github.io/a-dance-of-fire-and-ice';">
+                <img src="https://anonymousbirb5100.github.io/a-dance-of-fire-and-ice/adofai-logo.jpeg"/>
+                <p class="homeButtonTitle">A Dance of Fire and Ice</p>
+            </button>
         </div>
         </div>
 
@@ -767,6 +783,21 @@
             onclick="updateRecentlyPlayed('OvO', 'https://raw.githubusercontent.com/AnonymousBirb5100/ovo/refs/heads/main/ovo.png', 'https://anonymousbirb5100.github.io/ovo'); window.location.href = 'https://anonymousbirb5100.github.io/ovo';">
                 <img src="https://raw.githubusercontent.com/AnonymousBirb5100/ovo/refs/heads/main/ovo.png"/>
                 <p class="homeButtonTitle">OvO</p>
+            </button>
+            <button class="homeButton" style="border:5px solid rgb(162, 0, 255); box-shadow: 0px 0px 30px rgba(162, 0, 255, 0.8);"
+            onclick="updateRecentlyPlayed('Papas Pizzeria', 'https://anonymousbirb5100.github.io/papas-pizzeria/papas-pizzeria-logo.jpeg', 'https://anonymousbirb5100.github.io/papas-pizzeria'); window.location.href = 'https://anonymousbirb5100.github.io/papas-pizzeria';">
+                <img src="https://anonymousbirb5100.github.io/papas-pizzeria/papas-pizzeria-logo.jpeg"/>
+                <p class="homeButtonTitle">Papa's Pizzeria</p>
+            </button>
+            <button class="homeButton" style="border:5px solid rgb(162, 0, 255); box-shadow: 0px 0px 30px rgba(162, 0, 255, 0.8);"
+            onclick="updateRecentlyPlayed('Awesome Tanks 2', 'https://anonymousbirb5100.github.io/awesome-tanks-2/awesome-tanks-2-logo.jpeg', 'https://anonymousbirb5100.github.io/awesome-tanks-2'); window.location.href = 'https://anonymousbirb5100.github.io/awesome-tanks-2';">
+                <img src="https://anonymousbirb5100.github.io/awesome-tanks-2/awesome-tanks-2-logo.jpeg"/>
+                <p class="homeButtonTitle">Awesome Tanks 2</p>
+            </button>
+            <button class="homeButton" style="border:5px solid rgb(162, 0, 255); box-shadow: 0px 0px 30px rgba(162, 0, 255, 0.8);"
+            onclick="updateRecentlyPlayed('Bitlife', 'https://anonymousbirb5100.github.io/bitlife/logo.png', 'https://anonymousbirb5100.github.io/bitlife'); window.location.href = 'https://anonymousbirb5100.github.io/bitlife';">
+                <img src="https://anonymousbirb5100.github.io/bitlife/logo.png"/>
+                <p class="homeButtonTitle">Bitlife</p>
             </button>
         </br>
         </div>
@@ -1067,21 +1098,21 @@
                 <p class="populartag">Popular</p>
                 <p class="normaltag">Shooter</p>
             </button>
-            <button class="newbutton"
+            <button class="button"
             onclick="updateRecentlyPlayed('BitLife', 'https://raw.githubusercontent.com/AnonymousBirb5100/bitlife/refs/heads/main/logo.png', 'https://anonymousbirb5100.github.io/bitlife'); window.location.href = 'https://anonymousbirb5100.github.io/bitlife';">
                 <img src="https://raw.githubusercontent.com/AnonymousBirb5100/bitlife/refs/heads/main/logo.png" width="200px" height="200px"/>
-                <p class="buttontitle"><span style="color:aqua;">NEW! </span>BitLife</p>
+                <p class="buttontitle">BitLife</p>
                 <p class="buttonsubtitle">BitLife is a semi-realistic life simulator. Whether you want to become
                     a successful businessman or a criminal mastermind - the choice is all yours.
                 </p>
                 <p class="mobiletag">Mobile</p>
+                <p class="populartag">Popular</p>
                 <p class="normaltag">Sandbox</p>
-                <p class="normaltag">Simple</p>
             </button>
-            <button class="newbutton"
+            <button class="birdbestbutton"
             onclick="updateRecentlyPlayed('A Dance of Fire and Ice', 'https://raw.githubusercontent.com/AnonymousBirb5100/a-dance-of-fire-and-ice/refs/heads/main/adofai-logo.jpeg', 'https://anonymousbirb5100.github.io/a-dance-of-fire-and-ice'); window.location.href = 'https://anonymousbirb5100.github.io/a-dance-of-fire-and-ice';">
                 <img src="https://raw.githubusercontent.com/AnonymousBirb5100/a-dance-of-fire-and-ice/refs/heads/main/adofai-logo.jpeg" width="200px" height="200px"/>
-                <p class="buttontitle"><span style="color:aqua;">NEW! </span>A Dance of Fire and Ice</p>
+                <p class="buttontitle"><span style="color: orangered;">Birdhub's Best!</span> A Dance of Fire and Ice</p>
                 <p class="buttonsubtitle">Explore paths of different songs
                     and test your skills of timing in this classic rhythm game.
                 </p>
@@ -1089,10 +1120,10 @@
                 <p class="normaltag">Timing</p>
                 <p class="normaltag">Action</p>
             </button>
-            <button class="newbutton"
+            <button class="button"
             onclick="updateRecentlyPlayed('Super Smash Flash', 'https://raw.githubusercontent.com/AnonymousBirb5100/super-smash-flash/refs/heads/main/super-smash-flash-logo.png', 'https://anonymousbirb5100.github.io/super-smash-flash'); window.location.href = 'https://anonymousbirb5100.github.io/super-smash-flash';">
                 <img src="https://raw.githubusercontent.com/AnonymousBirb5100/super-smash-flash/refs/heads/main/super-smash-flash-logo.png" width="200px" height="200px"/>
-                <p class="buttontitle"><span style="color:aqua;">NEW! </span>Super Smash Flash</p>
+                <p class="buttontitle">Super Smash Flash</p>
                 <p class="buttonsubtitle">Super Smash Flash is a remake of Super Smash Bros in Flash. Choose your favorite Nintendo
                     character and smash against a bot or a friend!
                 </p>
@@ -1100,10 +1131,10 @@
                 <p class="normaltag">Skill</p>
                 <p class="normaltag">Platformer</p>
             </button>
-            <button class="newbutton"
+            <button class="button"
             onclick="updateRecentlyPlayed('Curveball', 'https://raw.githubusercontent.com/AnonymousBirb5100/curveball/refs/heads/main/curveball-logo.png', 'https://anonymousbirb5100.github.io/curveball'); window.location.href = 'https://anonymousbirb5100.github.io/curveball';">
                 <img src="https://raw.githubusercontent.com/AnonymousBirb5100/curveball/refs/heads/main/curveball-logo.png" width="200px" height="200px"/>
-                <p class="buttontitle"><span style="color:aqua;">NEW! </span>Curveball</p>
+                <p class="buttontitle">Curveball</p>
                 <p class="buttonsubtitle">Curveball is a simple skill-based 3D game similar to Pong. Play as a paddle and hit, curve, and deflect
                     balls to defeat your opponents.
                 </p>
@@ -1111,10 +1142,10 @@
                 <p class="normaltag">Skill</p>
                 <p class="normaltag">Timing</p>
             </button>
-            <button class="newbutton"
+            <button class="button"
             onclick="updateRecentlyPlayed('Bloons TD 3', 'https://raw.githubusercontent.com/AnonymousBirb5100/bloons-td-3/refs/heads/main/bloons-td-3-logo.png', 'https://anonymousbirb5100.github.io/bloons-td-3'); window.location.href = 'https://anonymousbirb5100.github.io/bloons-td-3';">
                 <img src="https://raw.githubusercontent.com/AnonymousBirb5100/bloons-td-3/refs/heads/main/bloons-td-3-logo.png" width="200px" height="200px"/>
-                <p class="buttontitle"><span style="color:aqua;">NEW! </span>Bloons TD 3</p>
+                <p class="buttontitle">Bloons TD 3</p>
                 <p class="buttonsubtitle">The third and an improved version of the Bloons Tower Defense game with multiple maps
                     and even more towers.
                 </p>
@@ -1122,20 +1153,20 @@
                 <p class="normaltag">Shooter</p>
                 <p class="normaltag">Idle</p>
             </button>
-            <button class="newbutton"
+            <button class="button"
             onclick="updateRecentlyPlayed('Duck Life 4', 'https://raw.githubusercontent.com/AnonymousBirb5100/duck-life-4/refs/heads/main/splash.jpg', 'https://anonymousbirb5100.github.io/duck-life-4'); window.location.href = 'https://anonymousbirb5100.github.io/duck-life-4';">
                 <img src="https://raw.githubusercontent.com/AnonymousBirb5100/duck-life-4/refs/heads/main/splash.jpg" width="200px" height="200px"/>
-                <p class="buttontitle"><span style="color:aqua;">NEW! </span>Duck Life 4</p>
+                <p class="buttontitle">Duck Life 4</p>
                 <p class="buttonsubtitle">Train a duck to become a racing champion in this hilarious simulation game.
                 </p>
+                <p class="populartag">Popular</p>
                 <p class="normaltag">Strategy</p>
                 <p class="normaltag">Idle</p>
-                <p class="normaltag">Simple</p>
             </button>
-            <button class="newbutton"
+            <button class="button"
             onclick="updateRecentlyPlayed('Suika Watermelon Game', 'https://raw.githubusercontent.com/AnonymousBirb5100/suika-watermelon-game/refs/heads/main/suika-watermelon-game-logo.jpg', 'https://anonymousbirb5100.github.io/suika-watermelon-game'); window.location.href = 'https://anonymousbirb5100.github.io/suika-watermelon-game';">
                 <img src="https://raw.githubusercontent.com/AnonymousBirb5100/suika-watermelon-game/refs/heads/main/suika-watermelon-game-logo.jpg" width="200px" height="200px"/>
-                <p class="buttontitle"><span style="color:aqua;">NEW! </span>Suika Watermelon Game</p>
+                <p class="buttontitle">Suika Watermelon Game</p>
                 <p class="buttonsubtitle">Merge fruits to create bigger ones all the way to the watermelon. Strategize so that
                     the box doesn't overflow!
                 </p>
@@ -1143,17 +1174,98 @@
                 <p class="normaltag">Idle</p>
                 <p class="normaltag">Simple</p>
             </button>
-            <button class="newbutton"
-            onclick="updateRecentlyPlayed('The Final Earth', 'https://raw.githubusercontent.com/AnonymousBirb5100/the-final-earth/refs/heads/main/the-final-earth-logo.png', 'https://anonymousbirb5100.github.io/suika-watermelon-game'); window.location.href = 'https://anonymousbirb5100.github.io/the-final-earth';">
+            <button class="button"
+            onclick="updateRecentlyPlayed('The Final Earth', 'https://raw.githubusercontent.com/AnonymousBirb5100/the-final-earth/refs/heads/main/the-final-earth-logo.png', 'https://anonymousbirb5100.github.io/the-final-earth'); window.location.href = 'https://anonymousbirb5100.github.io/the-final-earth';">
                 <img src="https://raw.githubusercontent.com/AnonymousBirb5100/the-final-earth/refs/heads/main/the-final-earth-logo.png" width="200px" height="200px"/>
-                <p class="buttontitle"><span style="color:aqua;">NEW! </span>The Final Earth</p>
+                <p class="buttontitle">The Final Earth</p>
                 <p class="buttonsubtitle">Create a space colony on an extraterrestrial alien planet. Can humanity survive with your help?
                 </p>
                 <p class="mobiletag">Mobile</p>
                 <p class="normaltag">Strategy</p>
                 <p class="normaltag">Sandbox</p>
             </button>
-            <!--Bloons TD 3, Duck Life 4, Suika Game, The Final Earth 2-->
+
+            <button class="newbutton"
+            onclick="updateRecentlyPlayed('The Final Earth 2', 'https://anonymousbirb5100.github.io/the-final-earth-2/the-final-earth-2-logo.jpeg', 'https://anonymousbirb5100.github.io/the-final-earth-2'); window.location.href = 'https://anonymousbirb5100.github.io/the-final-earth-2';">
+                <img src="https://anonymousbirb5100.github.io/the-final-earth-2/the-final-earth-2-logo.jpeg" width="200px" height="200px"/>
+                <p class="buttontitle"><span style="color: aqua;">NEW! </span>The Final Earth 2</p>
+                <p class="buttonsubtitle">More scenarios and buildings, develop your space city on a higher level!
+                </p>
+                <p class="mobiletag">Mobile</p>
+                <p class="normaltag">Strategy</p>
+                <p class="normaltag">Sandbox</p>
+            </button>
+            <button class="newbutton"
+            onclick="updateRecentlyPlayed('Temple of Boom', 'https://anonymousbirb5100.github.io/temple-of-boom/temple-of-boom-logo.jpeg', 'https://anonymousbirb5100.github.io/temple-of-boom'); window.location.href = 'https://anonymousbirb5100.github.io/temple-of-boom';">
+                <img src="https://anonymousbirb5100.github.io/temple-of-boom/temple-of-boom-logo.jpeg" width="200px" height="200px"/>
+                <p class="buttontitle"><span style="color: aqua;">NEW! </span>Temple of Boom</p>
+                <p class="buttonsubtitle">Survive waves of deadly monsters in this exciting platformer-shooter!
+                </p>
+                <p class="normaltag">Shooter</p>
+                <p class="normaltag">Multiplayer</p>
+                <p class="normaltag">Platformer</p>
+            </button>
+            <button class="newbutton"
+            onclick="updateRecentlyPlayed('The Worlds Hardest Game', 'https://anonymousbirb5100.github.io/the-worlds-hardest-game/the-worlds-hardest-game-logo.png', 'https://anonymousbirb5100.github.io/the-worlds-hardest-game'); window.location.href = 'https://anonymousbirb5100.github.io/the-worlds-hardest-game';">
+                <img src="https://anonymousbirb5100.github.io/the-worlds-hardest-game/the-worlds-hardest-game-logo.png" width="200px" height="200px"/>
+                <p class="buttontitle"><span style="color: aqua;">NEW! </span>The World's Hardest Game</p>
+                <p class="buttonsubtitle">Navigate your square through 30 brutal levels. Are you a worthy winner of the world's hardest game?
+                </p>
+                <p class="normaltag">Timing</p>
+                <p class="normaltag">Skill</p>
+                <p class="normaltag">Action</p>
+            </button>
+            <button class="newbutton"
+            onclick="updateRecentlyPlayed('Vex 5', 'https://anonymousbirb5100.github.io/vex5/vex5-logo.jpeg', 'https://anonymousbirb5100.github.io/vex5'); window.location.href = 'https://anonymousbirb5100.github.io/vex5';">
+                <img src="https://anonymousbirb5100.github.io/vex5/vex5-logo.jpeg" width="200px" height="200px"/>
+                <p class="buttontitle"><span style="color: aqua;">NEW! </span>Vex 5</p>
+                <p class="buttonsubtitle">Parkour across walls, jump across spike pits, and even ride ziplines in a very well-crafted platformer!
+                </p>
+                <p class="mobiletag">Mobile</p>
+                <p class="normaltag">Platformer</p>
+                <p class="normaltag">Casual</p>
+            </button>
+            <button class="newbutton"
+            onclick="updateRecentlyPlayed('Vex 7', 'https://anonymousbirb5100.github.io/vex7/vex7-logo.jpeg', 'https://anonymousbirb5100.github.io/vex7'); window.location.href = 'https://anonymousbirb5100.github.io/vex7';">
+                <img src="https://anonymousbirb5100.github.io/vex7/vex7-logo.jpeg" width="200px" height="200px"/>
+                <p class="buttontitle"><span style="color: aqua;">NEW! </span>Vex 7</p>
+                <p class="buttonsubtitle">A more extreme game in the Vex series with more acts, mechanics, skins, and more!
+                </p>
+                <p class="mobiletag">Mobile</p>
+                <p class="normaltag">Platformer</p>
+                <p class="normaltag">Casual</p>
+            </button>
+            <button class="newbutton"
+            onclick="updateRecentlyPlayed('Volleyball Random', 'https://anonymousbirb5100.github.io/volleyball-random/volleyball-random-logo.jpeg', 'https://anonymousbirb5100.github.io/volleyball-random'); window.location.href = 'https://anonymousbirb5100.github.io/volleyball-random';">
+                <img src="https://anonymousbirb5100.github.io/volleyball-random/volleyball-random-logo.jpeg" width="200px" height="200px"/>
+                <p class="buttontitle"><span style="color: aqua;">NEW! </span>Volleyball Random</p>
+                <p class="buttonsubtitle">Try to score a giant volleyball in this hilariously ridiculous ragdoll game!
+                </p>
+                <p class="normaltag">Multiplayer</p>
+                <p class="normaltag">Sports</p>
+                <p class="normaltag">Casual</p>
+            </button>
+            <button class="newbutton"
+            onclick="updateRecentlyPlayed('Papas Freezeria', 'https://anonymousbirb5100.github.io/papas-freezeria/papas-freezeria-logo.jpeg', 'https://anonymousbirb5100.github.io/papas-freezeria'); window.location.href = 'https://anonymousbirb5100.github.io/papas-freezeria';">
+                <img src="https://anonymousbirb5100.github.io/papas-freezeria/papas-freezeria-logo.jpeg" width="200px" height="200px"/>
+                <p class="buttontitle"><span style="color: aqua;">NEW! </span>Papa's Freezeria</p>
+                <p class="buttonsubtitle">Prepare, blend, and top tasty frozen drinks for your customers.
+                </p>
+                <p class="normaltag">Business</p>
+                <p class="normaltag">Strategy</p>
+                <p class="normaltag">Casual</p>
+            </button>
+            <button class="newbutton"
+            onclick="updateRecentlyPlayed('Drift Boss', 'https://anonymousbirb5100.github.io/drift-boss/drift-boss-logo.jpeg', 'https://anonymousbirb5100.github.io/drift-boss'); window.location.href = 'https://anonymousbirb5100.github.io/drift-boss';">
+                <img src="https://anonymousbirb5100.github.io/drift-boss/drift-boss-logo.jpeg" width="200px" height="200px"/>
+                <p class="buttontitle"><span style="color: aqua;">NEW! </span>Drift Boss</p>
+                <p class="buttonsubtitle">Drift Boss is a one-button endless drifting game. Steer your vehicle across a platform whilst avoiding falling off.
+                </p>
+                <p class="mobiletag">Mobile</p>
+                <p class="normaltag">Racing</p>
+                <p class="normaltag">Timing</p>
+            </button>
+            
         <h2 class="bigtopic" id="about">About</h2>
         <div class="homesection">
         <p class="abouttext">The BirdHub was created in February of 2025 by HanmingbirdWebDev, an branch of Hanmingbird Coperated.
@@ -1180,9 +1292,10 @@
     </div>
 
     <div style="height: 50px;" id="divider"></div>
-    <p class="subtitle" style="text-align:center;">Version 1.7a</br>
-        Last Updated 4/15/25</p>
+    <p class="subtitle" style="text-align:center;">Version 1.8</br>
+        Last Updated 5/28/25</p>
     <script>
+        //window.screen.height is 768
         if (window.screen.width !== 1366) {
             alert("It looks like you are not using this device on a 1366px chromebook, which is the intended device for this website's usage. Please remember that your display may look warped depending on the device.")
         }
@@ -1326,6 +1439,10 @@
             document.getElementById("popup").style.display = "none";
             document.getElementById("overlay").style.display = "none";
             document.body.classList.remove("no-scroll");
+        });
+        javaLogo = document.getElementById("birdLogo")
+        javaLogo.addEventListener("click", function() {
+            alert("Chirp");
         });
     </script>
     </body>
